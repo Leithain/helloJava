@@ -31,6 +31,7 @@ public class Main {
         panel.add(przycisk2);
         frame.add(panel);
         frame.setVisible(true);
+        frame.repaint(1,2,3,4);
 
     }
 }
