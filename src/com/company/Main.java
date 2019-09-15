@@ -14,17 +14,21 @@ public class Main {
 
 
         JButton przycisk1 = new JButton();
+        JButton przycisk2 = new JButton();
         Dimension wymiary = new Dimension(250, 20);
-        przycisk1.setText("przyciskuś");
+        przycisk1.setText("button one");
+        przycisk2.setText("button two");
         przycisk1.setLocation(1,2);
+        przycisk2.setLocation(10,2);
         przycisk1.setPreferredSize(wymiary);
-        przycisk1.setMaximumSize(wymiary);
-        przycisk1.setMinimumSize(wymiary);
+        przycisk2.setPreferredSize(wymiary);
+
 
         frame.setLocationRelativeTo(null);
 
         panel.add(label);
         panel.add(przycisk1);
+        panel.add(przycisk2);
         frame.add(panel);
         frame.setVisible(true);
 
